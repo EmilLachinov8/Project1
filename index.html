@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="elipse.svg">
     <link rel="stylesheet" href="snake.svg">
     <link rel="stylesheet" href="wheel.svg">
+    <link rel="stylesheet" href="carinside.svg">
+    <link rel="stylesheet" href="screen.svg">
+    <link rel="stylesheet" href="wifi.svg">
+    <link rel="stylesheet" href="bag.svg">
+    <link rel="stylesheet" href="icircle.svg">
   </head>
   <body>
     <div class="wrapper">
@@ -43,22 +48,24 @@
         </h1>
         <p class="main__subtitle">Добро пожаловать в будущее!</p>
         <img class="car" src="img/car.png" alt="models">
-          <div class="speed">
-            2,7
-            <span class="speed__sec">сек</span>
-            <span class="speed__limit">0-100&nbsp;км/час</span>
+          <div class="undercar">
+            <div class="undercar__speed">
+              2,7
+              <span class="undercar__speed-sec">сек</span>
+              <span class="undercar__speed-limit">0-100&nbsp;км/час</span>
+            </div>
+            <div class="undercar__speed-distance">
+              632
+              <span class="undercar__speed-km">км</span>
+              <span class="undercar__speed-savings">запас хода</span>
+            </div>
+            <div class="undercar__speed-drive">
+              ТЕСТ ДРАЙВ
+            </div>
+            <a class="undercar__speed-button" href="#">
+              ЗАКАЗАТЬ 
+            </a>
           </div>
-          <div class="speed__distance">
-            632
-            <span class="speed__km">км</span>
-            <span class="speed__savings">запас хода</span>
-          </div>
-          <div class="speed__drive">
-            ТЕСТ ДРАЙВ
-          </div>
-          <a class="speed__button" href="#">
-            ЗАКАЗАТЬ 
-          </a>
           <div class="pointer">
           </div>
       </section>
@@ -67,11 +74,10 @@
           Model S
         </h2>
         <div class="cars__describtion">
-          <img src="img/2013-tesla-model-s-cockpit.png" alt="inside">
-          <h3 class="section_title">
+          <h3 class="cars__describtion-title">
             Будущее вождения
           </h3>
-          <div class="section_body">
+          <div class="cars__describtion-body">
             Модель S обладает лучшей в своем классе вместимостью:
             в машине поместится до пяти взрослых и двух детей.
             Оснащена современным 17-дюймовым сенсорным экраном.
@@ -79,30 +85,34 @@
             сравнимую со студией звукозаписи, а стеклянная крыша
             обеспечивает просторный интерьер для каждого пассажира.
           </div>
-        </div>
-          <div class="cars__describtion__option">
-            17 дюймов
-            <span class="cars__describtion__option-under">
+          <div class="cars__describtion-option">
+            17
+            <span class="cars__describtion-option-dm">дюймов
+            </span>
+            <span class="cars__describtion-option-under">
               Большой дисплей
             </span>
           </div>
-          <div class="cars__describtion__wifi">
-            Беспроводное обновление ПО
-            <span class="cars__describtion__wifi-under">
-              Повышенная функциональность
+          <div class="cars__describtion-wifi">
+            Беспроводное<br/>обновление ПО
+            <span class="cars__describtion-wifi-under">
+              Повышенная<br/>функциональность
             </span>
           </div>
-          <div class="cars__describtion__size">
-            894 литра
-            <span class="cars__describtion__size-under">
-              Объем грузового пространства
+          <div class="cars__describtion-size">
+            894
+            <span class="cars__describtion-size-v">
+              литра</span>
+            <span class="cars__describtion-size-under">
+              Объем грузового<br/>пространства
             </span>
-          <div class="describtion__info">
-            <span class="describtion__info__moreinfo">
-              узнать больше
+          </div>
+          <div class="cars__describtion-info">
+            <span class="cars__describtion-info-more">
+              УЗНАТЬ БОЛЬШЕ
             </span>
-            <a class="describtion__info__button" href="#">
-              заказать
+            <a class="cars__describtion-info-button" href="#">
+              ЗАКАЗАТЬ
             </a>
           </div>
         </div>
